@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    display: flex;
+    height: 100vh;
+    margin: 0;
+
+    font-family: Roboto, sans-serif;
+    flex-direction: column;
+    justify-content:flex-start
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px
+}
+
+a {
+    color: #f9faf8;
+    text-decoration: none
+}
+
+img {
+    width: 400px;
+    
+}
+
+button {
+    border: none;
+    border-radius: 12px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding:20px;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-weight: bold;
+}
+
+.header {
+    font-size: 24px;
+    padding-top: 16px;
+}
+
+.left-links {
+    font-weight: bold;
+}
+
+.header, .footer {
+    display: flex;
+    justify-content:space-around;
+    background-color: #1f2937;
+}
+
+.summary {
+    display: flex;
+    flex-direction: row;
+    background-color: #1f2937;
+    padding: 50px;
+    padding-left: 300px;
+    padding-right: 300px;
+    color:  #f9faf8;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    font-weight: 700;
+    text-align:left;
+
+}
+
+
+.summary .content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.secondary_text {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #e5e7eb;
+    text-align: left;
+    
+}
+
+.information {
+    text-align: center;
+    padding: 40px;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.card {
+    text-align: center;
+    padding:10px;
+    width: 125px; /*Set max width for each card */
+}
+
+.card img {
+    border-radius: 15px;
+    width: 125px; 
+    height: 125px;
+    border: 2px solid #3882f6;
+}
+
+.card p {
+    font-size: 12px;
+    font-weight: 100;
+    text-wrap: nowrap;
+    margin-top: 5px;
+    text-overflow: ellipsis;
+    white-space: normal;
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
